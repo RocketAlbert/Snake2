@@ -41,6 +41,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04DF93D322E0D8BD00890FC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F64795B522E0D61100C7415B /* AppDelegate.swift */,
+				F64795B922E0D61100C7415B /* Actions.sks */,
+				F64795BF22E0D61100C7415B /* Main.storyboard */,
+				F64795C222E0D61100C7415B /* Assets.xcassets */,
+				F64795C422E0D61100C7415B /* LaunchScreen.storyboard */,
+				F64795C722E0D61100C7415B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04DF93D422E0D8E300890FC9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F64795BD22E0D61100C7415B /* GameViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		04DF93D522E0D8F200890FC9 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F64795BB22E0D61100C7415B /* GameScene.swift */,
+				F64795B722E0D61100C7415B /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		F64795A922E0D61100C7415B = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +90,9 @@
 		F64795B422E0D61100C7415B /* Snake2 */ = {
 			isa = PBXGroup;
 			children = (
-				F64795B522E0D61100C7415B /* AppDelegate.swift */,
-				F64795B722E0D61100C7415B /* GameScene.sks */,
-				F64795B922E0D61100C7415B /* Actions.sks */,
-				F64795BB22E0D61100C7415B /* GameScene.swift */,
-				F64795BD22E0D61100C7415B /* GameViewController.swift */,
-				F64795BF22E0D61100C7415B /* Main.storyboard */,
-				F64795C222E0D61100C7415B /* Assets.xcassets */,
-				F64795C422E0D61100C7415B /* LaunchScreen.storyboard */,
-				F64795C722E0D61100C7415B /* Info.plist */,
+				04DF93D522E0D8F200890FC9 /* Scenes */,
+				04DF93D422E0D8E300890FC9 /* ViewController */,
+				04DF93D322E0D8BD00890FC9 /* Resources */,
 			);
 			path = Snake2;
 			sourceTree = "<group>";
